@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home_destination">
+
+    <fragment
+        android:id="@+id/home_destination"
+        android:name="fr.sadok.fizzbuzz.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_home_to_result"
+            app:destination="@id/result_destination" />
+    </fragment>
+    <fragment
+        android:id="@+id/result_destination"
+        android:name="fr.sadok.fizzbuzz.result.ResultFragment"
+        android:label="result_fragment"
+        tools:layout="@layout/result_fragment" >
+        <argument
+            android:name="fizzBuzzArg"
+            app:argType="fr.sadok.fizzbuzz.data.FizzBuzzData" />
+    </fragment>
+</navigation>
