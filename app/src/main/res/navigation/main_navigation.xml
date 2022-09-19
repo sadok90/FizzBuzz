@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/home_destination"
-        android:name="fr.sadok.fizzbuzz.home.HomeFragment"
+        android:name="fr.sadok.fizzbuzz.presentation.home.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_home_to_result"
@@ -15,11 +15,11 @@
     </fragment>
     <fragment
         android:id="@+id/result_destination"
-        android:name="fr.sadok.fizzbuzz.result.ResultFragment"
+        android:name="fr.sadok.fizzbuzz.presentation.result.ResultFragment"
         android:label="result_fragment"
         tools:layout="@layout/result_fragment" >
         <argument
             android:name="fizzBuzzArg"
-            app:argType="fr.sadok.fizzbuzz.data.FizzBuzzData" />
+            app:argType="fr.sadok.fizzbuzz.domain.entity.FizzBuzzEntity" />
     </fragment>
 </navigation>

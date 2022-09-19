@@ -1,4 +1,4 @@
-package fr.sadok.fizzbuzz.result
+package fr.sadok.fizzbuzz.presentation.result
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

@@ -1,4 +1,4 @@
-package fr.sadok.fizzbuzz.home
+package fr.sadok.fizzbuzz.presentation.home
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -10,6 +10,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import fr.sadok.fizzbuzz.R
 import fr.sadok.fizzbuzz.databinding.HomeFragmentBinding
+import fr.sadok.fizzbuzz.home.HomeViewModel
 
 class HomeFragment : Fragment() {
 

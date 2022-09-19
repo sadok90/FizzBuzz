@@ -1,4 +1,4 @@
-package fr.sadok.fizzbuzz.result
+package fr.sadok.fizzbuzz.presentation.result
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -8,12 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.NavigationUI
 import fr.sadok.fizzbuzz.R
-import fr.sadok.fizzbuzz.databinding.HomeFragmentBinding
 import fr.sadok.fizzbuzz.databinding.ResultFragmentBinding
 
 class ResultFragment : Fragment() {

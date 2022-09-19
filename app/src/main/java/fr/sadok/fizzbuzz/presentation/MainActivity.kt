@@ -1,9 +1,9 @@
-package fr.sadok.fizzbuzz
+package fr.sadok.fizzbuzz.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.findNavController
+import fr.sadok.fizzbuzz.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
